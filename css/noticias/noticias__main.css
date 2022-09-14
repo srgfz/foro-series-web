@@ -1,0 +1,102 @@
+/* CSS PARA EL MAIN DE Noticias*/
+/* Maquetación del main */
+  .main{
+    margin: 0 auto;
+    width: 1250px;
+    padding: 20px;
+    background-color: whitesmoke;
+  }
+  .main__title{
+    width: 100%;
+    border-bottom: 2px solid #2f3234c7;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 1.7rem;
+  }
+  .main__cont{
+    display: flex;
+    justify-content: space-around;
+  }
+  .main__left{
+    padding: 30px 0;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px 0;
+  }
+/* Maquetación de los artículos del main */
+  .article{
+    box-shadow: 0 0 10px gray;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 20px 25px;
+    border-radius: 10px;
+  }
+  .article:hover{
+    background-color: #2f323428;
+  }
+/* Artículo de cabezera: */
+  .article__top{
+    height: 350px;
+    background-image: url(../../assets/images/noticias/batman1.jpg);
+    background-position: 50% 40%;
+    background-size: cover;
+    color: whitesmoke;
+    padding: 0 20px;
+    position: relative;
+  }
+/* Formato del contenido de los artículos: */
+  .article__link{
+    color: whitesmoke;
+    display: block;
+  }
+  .article__cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 290px;
+    padding: 5px 10px;
+  }
+  .article__info{
+    font-variant: small-caps;
+    color: #b07b08;
+    font-weight: bold;
+  }
+  .article__title{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  .article__title:hover{
+    text-decoration: underline;
+  }
+  .article__video{
+    width: 380px;
+  }
+  .article__img{
+    width: 370px;
+    flex-grow: 1;
+    border-radius: 5%;
+  }
+  .article__text{
+    text-align: justify;
+    padding-left: 10px;
+  }
+/* Modificadores: */
+  .article__cont--top{
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+  }
+  .article__info--date{
+    color: gray;
+    font-weight: normal;
+    font-size: 0.8rem;
+    font-variant: normal;
+  }
+  .img--radius{
+    border-radius: 2%;
+  }

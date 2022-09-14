@@ -1,0 +1,49 @@
+/* CSS DEL FOOTER*/
+/* Formato general del footer */
+    .footer{
+        background-color: #0e0e0e;
+        background-image: url(../assets/images/footer.png);
+        padding: 35px;
+        color: whitesmoke;
+        display: flex;
+        text-align: left;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .footer__cont{
+        width: 250px;
+    }
+/* Formato de las imagenes del footer */
+    .footer__img{
+        width: 100px;
+        margin: 0 auto;
+    }
+    .footer__icon{
+    width: 24px;
+    margin: 0 3px;
+    }
+/* Formato de la list del footer */
+    .footer__title{
+        margin: 10px 0;
+        border-bottom: 1px solid whitesmoke;
+    }
+    .footer__list{
+        list-style-type: none;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__link{
+        color: whitesmoke;
+        display: flex;
+        align-items: center;
+    }
+    .footer__item{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    }
+    .footer__link:hover{
+        text-decoration: underline;
+    }

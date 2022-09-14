@@ -1,0 +1,71 @@
+/* CSS PARA EL ASIDE DE CALENDARIO*/
+/* Maquetación del aside left */
+  .main__left{
+    background-color: whitesmoke;
+    width: 400px;
+  }
+  .aside{
+    position: sticky;
+    top: 45px;
+    height: 650px;
+    background-color: whitesmoke;
+  }
+/* Formato de los elementos del aside */
+  .aside__title{
+    border-bottom: 2px solid #2f3234c7;
+    width: 80%;
+    margin: 30px auto;
+    text-align: left;
+    padding: 5px 10px;
+  }
+  .aside__select{
+    width: 150px;
+    padding: 5px 3px;
+    outline: none;
+    border-radius: 5px;
+  }
+/* Formato del calendario */
+  .calendar__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .arrow{
+    color: #2f3234;
+  }
+  .calendar__title{
+    padding-bottom: 2px;
+  }
+  .calendar__flecha{
+    width: 24px;
+    margin: 20px;
+  }
+  .calendar__table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgba(245, 245, 245, 0.625);
+    box-shadow: 0 0 15px gray;
+  }
+  .calendar__td{
+    padding: 10px;
+  }
+  .calendar__td:hover{
+    font-weight: bold;
+  }
+/* Modificadores del calendario*/
+  .calendar__tr--days{
+    color: whitesmoke;
+    background-color: #b88820f3;
+    font-weight: bold;
+  }
+  .calendar__link--otherdays{
+    color: rgba(128, 128, 128, 0.728);
+  }
+  .calendar__td--today{
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.483);
+  }
+  .caledar__td--serie{
+    border-bottom: 2px solid gray;
+    margin: 0 3px;
+  }

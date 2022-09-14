@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuera de Serie | Registrate</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style__header.css">
+    <link rel="stylesheet" href="../css/style__nav.css">
+    <link rel="stylesheet" href="../css/style__footer.css">
+    <link rel="stylesheet" href="../css/form/form__main.css">
+    <link rel="stylesheet" href="../css/webfonts/all.css">
+    <link rel="shortcut icon" href="../assets/images/logos/logo2_white.ico" type="image/x-icon">
+</head>
+
+
+<body>
+    <div class="container">
+        <!--********** Comienzo del header **********-->
+        <header class="header">
+            <div class="header__linea"></div>
+            <h1 class="header__title"><a href="../index.html" class="header__link"><img
+                        src="../assets/images/logos/logo_white.png" alt="" class="img"></a></h1>
+            <div class="header__linea"></div>
+        </header>
+        <!--********** Fin del header **********-->
+        <!--********** Comienzo del nav **********-->
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="./foro.html" class="nav__link">Foro</a>
+                    <ul class="nav__list nav__list--oculto">
+                        <li class="nav__item--oculto"><a href="./foro.html" class="nav__link--oculto">Series
+                                Actuales</a></li>
+                        <li class="nav__item--oculto"><a href="./foro.html" class="nav__link--oculto">Series
+                                Clásicas</a></li>
+                        <li class="nav__item--oculto"><a href="./foro.html" class="nav__link--oculto">Últimas
+                                Novedades</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./foro.html" class="nav__link--oculto">Películas</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="./calendario.html" class="nav__link">Próximos Extrenos</a>
+                    <ul class="nav__list nav__list--oculto">
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Enero</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Febrero</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Marzo</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Abril</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Mayo</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Junio</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Julio</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Agosto</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html"
+                                class="nav__link--oculto">Septiembre</a></li>
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Octubre</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html"
+                                class="nav__link--oculto">Noviembre</a></li>
+                        <li class="nav__item--oculto"><a href="./calendario.html"
+                                class="nav__link--oculto">Diciembre</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="./noticias.html" class="nav__link">Noticias</a>
+                    <ul class="nav__list nav__list--oculto">
+                        <li class="nav__item--oculto"><a href="./noticias.html"
+                                class="nav__link--oculto">Internacionales</a></li>
+                        <li class="nav__item--oculto"><a href="./noticias.html" class="nav__link--oculto">Nacionales</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./noticias.html" class="nav__link--oculto">Actores /
+                                Actrices</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="./registro.html" class="nav__link">Registrate</a>
+                </li>
+            </ul>
+        </nav>
+        <!--********** Fin del nav **********-->
+        <!--********** Inicio del main **********-->
+        <main class="main">
+            <!--********** Comienzo del form **********-->
+            <form action="" class="form" method="get">
+                <h2 class="form__title">Registrate</h2>
+                <div class="form__row">
+                    <label for="user" class="form__label">Usuario <span class="form__label--orange">*</span></label>
+                    <input type="text" class="form__input" id="user" autofocus required name="user" placeholder="User">
+                    <label for="img" class="form__label form__label--small">Imagen de perfil</label>
+                    <input type="file" class="form__input" id="img" name="img" accept="image/*">
+                </div>
+                <div class="form__row">
+                    <label for="email" class="form__label">Correo <span class="form__label--orange">*</span></label>
+                    <input type="email" class="form__input" id="email" required name="correo"
+                        placeholder="email@gmail.com">
+                </div>
+                <div class="form__row">
+                    <label for="url" class="form__label">Enlaza tu cuenta de SensaCine (url)</label>
+                    <input type="url" class="form__input" id="url" name="url"
+                        placeholder="https://www.sensacine.com/user">
+                </div>
+                <div class="form__row">
+                    <label for="pass" class="form__label">Contraseña <span class="form__label--orange">*</span></label>
+                    <input type="password" class="form__input" id="pass" required name="pass" placeholder="********">
+                    <label for="date" class="form__label form__label--small">Fecha de nacimiento <span
+                            class="form__label--orange">*</span></label>
+                    <input type="date" class="form__input" id="date" required name="date">
+                </div>
+                <div class="form__row">
+                    <label for="#" class="form__label">Género <span class="form__label--orange">*</span></label>
+                    <div class="form__genero">
+                        <div class="form__block"><input type="radio" class="form__input" value="H" name="genero" id="h"
+                                required><label for="h">Hombre</label></div>
+                        <div class="form__block"><input type="radio" class="form__input" value="H" name="genero" id="m"
+                                required><label for="m">Mujer</label></div>
+                        <div class="form__block"><input type="radio" class="form__input" value="H" name="genero" id="o"
+                                required><label for="o">Otro</label></div>
+                    </div>
+                    <label for="desc" class="form__label form__label--small">Añade una descripción</label>
+                    <textarea name="descripcion" id="desc" cols="30" rows="4" class="form__input" maxlength="500"
+                        placeholder="Añade una pequeña descripción a tu perfil (máx 500)"></textarea>
+                </div>
+                <div class="form__row">
+                    <div class="from__block form__block--checkbox">
+                        <div><input type="checkbox" class="form__input" checked id="politicas" required
+                                name="politicas"><label for="politicas"> Acepto las Politicas de Privacidad</label>
+                        </div>
+                        <div><input type="checkbox" class="form__input" checked id="newsletter" name="newsletter"><label
+                                for="newsletter"> Suscribete a nuestra newsletter semanal</label></div>
+                    </div>
+                </div>
+                <input type="submit" value="Registrate" class="form__submit">
+            </form>
+            <!--********** Fin del form **********-->
+        </main>
+        <!--********** Fin del main **********-->
+        <!--********** Comienzo del footer **********-->
+        <footer class="footer">
+            <div class="footer__cont">
+                <h3 class="footer__title">Redes Sociales</h3>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="http://instagram.com" class="footer__link" target="_blank"><img
+                                src="../assets/images/logos/instagram.png" alt=""
+                                class="footer__icon"><span>Instagram</span></a></li>
+                    <li class="footer__item"><a href="https://twitter.com" class="footer__link" target="_blank"><img
+                                src="../assets/images/logos/twitter.png" alt=""
+                                class="footer__icon"><span>Twitter</span></a></li>
+                    <li class="footer__item"><a href="https://facebook.com" class="footer__link" target="_blank"><img
+                                src="../assets/images/logos/facebook.png" alt=""
+                                class="footer__icon"><span>Facebook</span></a></li>
+                    <li class="footer__item"><a href="https://youtube.com" class="footer__link" target="_blank"><img
+                                src="../assets/images/logos/youtube.png" alt=""
+                                class="footer__icon"><span>YouTube</span></a></li>
+                </ul>
+            </div>
+            <div class="footer__cont">
+                <h3 class="footer__title">Contactanos</h3>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="mailto:fueradeseries@gmail.com" class="footer__link"><img
+                                src="../assets/images/icons/email.png" alt=""
+                                class="footer__icon"><span>fueradeseries@gmail.com</span></a></li>
+                    <li class="footer__item"><img src="../assets/images/icons/whatsapp.png" alt=""
+                            class="footer__icon"><span>601 324 653</span></li>
+                    <li class="footer__item"><img src="../assets/images/icons/tel.png" alt=""
+                            class="footer__icon"><span>925
+                            81 13 10</span></li>
+                </ul>
+            </div>
+            <div class="footer__cont">
+                <h3 class="footer__title">Dónde estamos</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12233.454777683526!2d-4.8370206!3d39.9556206!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe80e353d605fae33!2sI.E.S.%20Ribera%20del%20Tajo!5e0!3m2!1ses!2ses!4v1646007595119!5m2!1ses!2ses"
+                    width="250" height="180" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="footer__cont">
+                <h3 class="footer__title">Descarga nuestra App</h3>
+                <div class="footer__img"><a href="#"><img src="../assets/images/logos/app.png" alt=" " class="img"></a>
+                </div>
+            </div>
+        </footer>
+        <!--********** Fin del footer **********-->
+    </div>
+
+</body>
+
+</html>

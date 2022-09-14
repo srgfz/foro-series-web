@@ -1,0 +1,47 @@
+/* CSS COMÚN: EN ÉL ESTÁN LOS RECURSOS COMUNES PARA TODO EL PROYECTO*/
+
+/* Le doy un fondo y un formato general a la página: */
+  body {
+    background: url(../assets/images/fondo1.jpg);
+    background-color: #c5c7c4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 auto;
+    color: #2f3234;
+    font-family: Roboto;
+    max-width: 2200px;
+    min-width: 1100px;
+  }
+
+/* Formato para los enlaces */
+  a {
+    text-decoration: none;
+    color: black;
+  }
+/* Formato para que las imagenes ocupen todo el ancho de su contenedor */
+  .img{
+      width: 100%;
+  }
+/* Cargo las fuentes que voy a utilizar */
+  @font-face {
+    font-family: Roboto;
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Monea;
+    src: url(../assets/fonts/Monea\ Alegante.otf);
+  }
+  @font-face {
+    font-family: Fenix;
+    src: url(../assets/fonts/Fenix-Regular.ttf);
+  }
+  @font-face {
+    font-family: Dancing;
+    src: url(../assets/fonts/DancingScript-VariableFont_wght.ttf);
+  }
+  @font-face {
+    font-family: Got;
+    src: url(../assets/fonts/Game\ of\ Thrones.ttf);
+  }

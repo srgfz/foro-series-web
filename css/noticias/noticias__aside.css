@@ -1,0 +1,40 @@
+/* CSS PARA EL ASIDE DE NOTICIAS*/
+/* Reutilizo el css aside de calendario y lo pongo a la derecha con order=2 */
+  .main__right{
+    background-color: whitesmoke;
+    width: 400px;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 ;
+  }
+/* Formato del aside y maquetación flex */
+.aside{
+  background-color: whitesmoke;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 25px 0;
+  flex-grow: 1;
+}
+/* Formato de los tamaños de los artículos del aside */
+  .aside article{
+    flex-grow: 1;
+  }
+  .aside__img{
+    width: 40%;
+    border-radius: 5%;
+    flex-grow: 1;
+  }
+  .aside__right{
+    width: 53%;
+    padding-left: 10px;
+  }
+/* Modificador para que las imagenes ocupen todo el alto disponible */
+  .img--height{
+    height: 100%;
+  }
+/* Modificador del título de los articulos del aside */
+  .article__title--aside{
+    font-size: 1.05rem;
+  }

@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuera de Serie | Próximos Extrenos</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style__header.css">
+    <link rel="stylesheet" href="../css/style__nav.css">
+    <link rel="stylesheet" href="../css/style__footer.css">
+    <link rel="stylesheet" href="../css/style__search.css">
+    <link rel="stylesheet" href="../css/calendario/calendario__aside.css">
+    <link rel="stylesheet" href="../css/calendario/calendario__main.css">
+    <link rel="stylesheet" href="../css/webfonts/all.css">
+    <link rel="shortcut icon" href="../assets/images/logos/logo2_white.ico" type="image/x-icon">
+</head>
+
+
+<body>
+    <div class="container">
+        <!--********** Comienzo del header **********-->
+        <header class="header">
+            <div class="header__linea"></div>
+            <h1 class="header__title"><a href="../index.html" class="header__link"><img
+                        src="../assets/images/logos/logo_white.png" alt="" class="img"></a></h1>
+            <div class="header__linea"></div>
+        </header>
+        <!--********** Fin del header **********-->
+        <!--********** Comienzo del nav **********-->
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="./foro.html" class="nav__link">Foro</a>
+                    <ul class="nav__list nav__list--oculto">
+                        <li class="nav__item--oculto"><a href="./foro.html" class="nav__link--oculto">Series
+                                Actuales</a></li>
+                        <li class="nav__item--oculto"><a href="./foro.html" class="nav__link--oculto">Series
+                                Clásicas</a></li>
+                        <li class="nav__item--oculto"><a href="./foro.html" class="nav__link--oculto">Últimas
+                                Novedades</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./foro.html" class="nav__link--oculto">Películas</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="./calendario.html" class="nav__link">Próximos Extrenos</a>
+                    <ul class="nav__list nav__list--oculto">
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Enero</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Febrero</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Marzo</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Abril</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Mayo</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Junio</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Julio</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Agosto</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html"
+                                class="nav__link--oculto">Septiembre</a></li>
+                        <li class="nav__item--oculto"><a href="./calendario.html" class="nav__link--oculto">Octubre</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./calendario.html"
+                                class="nav__link--oculto">Noviembre</a></li>
+                        <li class="nav__item--oculto"><a href="./calendario.html"
+                                class="nav__link--oculto">Diciembre</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="./noticias.html" class="nav__link">Noticias</a>
+                    <ul class="nav__list nav__list--oculto">
+                        <li class="nav__item--oculto"><a href="./noticias.html"
+                                class="nav__link--oculto">Internacionales</a></li>
+                        <li class="nav__item--oculto"><a href="./noticias.html" class="nav__link--oculto">Nacionales</a>
+                        </li>
+                        <li class="nav__item--oculto"><a href="./noticias.html" class="nav__link--oculto">Actores /
+                                Actrices</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="./registro.html" class="nav__link">Registrate</a>
+                </li>
+            </ul>
+        </nav>
+        <!--********** Fin del nav **********-->
+        <!--********** Inicio del main **********-->
+        <main class="main">
+            <!--********** Comienzo del aside left **********-->
+            <div class="main__left">
+                <aside class="aside">
+                    <h2 class="aside__title">Próximos Extrenos</h2>
+                    <div class="aside__search aside__search--calendar"><i class="fas fa-search"></i><input type="search"
+                            class="input__search input__search--calendar" placeholder="Buscar..."></div>
+                    <label for="categoria" class="aside__label">Qué quieres ver: </label>
+                    <select name="categoria" id="categoria" class="aside__select">
+                        <option value="todas" class="aside__option" selected>Todas las series</option>
+                        <option value="populares" class="aside__option">Las más populares</option>
+                        <option value="comedia" class="aside__option">Comedias</option>
+                        <option value="esp" class="aside__option">Españolas</option>
+                        <option value="netflix" class="aside__option">Series en Netflix</option>
+                        <option value="hbo" class="aside__option">Series en HBO</option>
+                        <option value="amazon" class="aside__option">Series en Prime Video</option>
+                    </select>
+                    <div class="calendar">
+                        <header class="calendar__header">
+                            <div class="calendar__flecha"><a href="#"><i class="fas fa-arrow-left arrow"></i></a>
+                            </div>
+                            <h3 class="calendar__title">Marzo 2022</h3>
+                            <div class="calendar__flecha"><a href="#"><i class="fas fa-arrow-right arrow"></i></a>
+                            </div>
+                        </header>
+                        <table class="calendar__table">
+                            <tr class="calendar__tr calendar__tr--days">
+                                <td class="calendar__td calendar__td--days">L</td>
+                                <td class="calendar__td calendar__td--days">M</td>
+                                <td class="calendar__td calendar__td--days">X</td>
+                                <td class="calendar__td calendar__td--days">J</td>
+                                <td class="calendar__td calendar__td--days">V</td>
+                                <td class="calendar__td calendar__td--days">S</td>
+                                <td class="calendar__td calendar__td--days">D</td>
+                            </tr>
+                            <tr class="calendar__tr">
+                                <td class="calendar__td"><a href="#"
+                                        class="calendar__link calendar__link--otherdays">28</a>
+                                </td>
+                                <td class="calendar__td"><a href="#" class="calendar__link">01</a></td>
+                                <td class="calendar__td"><a href="#" class="calendar__link">02</a></td>
+                                <td class="calendar__td"><a href="#" class="calendar__link">03</a></td>
+                                <td class="calendar__td calendar__td--today"><a href="#04marzo"
+                                        class="calendar__link caledar__td--serie">04</a></td>
+                                <td class="calendar__td"><a href="#" class="calendar__link">05</a></td>
+                                <td class="calendar__td"><a href="#06marzo"
+                                        class="calendar__link caledar__td--serie">06</a></td>
+                            </tr>
+                            <tr class="calendar__tr">
+                                <td class="calendar__td"><a href="#07marzo"
+                                        class="calendar__link caledar__td--serie">07</a></td>
+                                <td class="calendar__td"><a href="#08marzo"
+                                        class="calendar__link caledar__td--serie">08</a></td>
+                                <td class="calendar__td"><a href="#09marzo"
+                                        class="calendar__link caledar__td--serie">09</a></td>
+                                <td class="calendar__td"><a href="#" class="calendar__link">10</a></td>
+                                <td class="calendar__td"><a href="#11marzo"
+                                        class="calendar__link caledar__td--serie">11</a></td>
+                                <td class="calendar__td"><a href="#" class="calendar__link">12</a></td>
+                                <td class="calendar__td"><a href="#13marzo"
+                                        class="calendar__link caledar__td--serie">13</a></td>
+                            </tr>
+                            <tr class="calendar__tr">
+                                <td class="calendar__td"><a href="#14marzo"
+                                        class="calendar__link caledar__td--serie">14</a></td>
+                                <td class="calendar__td"><a href="#15marzo"
+                                        class="calendar__link caledar__td--serie">15</a></td>
+                                <td class="calendar__td"><a href="#16marzo"
+                                        class="calendar__link caledar__td--serie">16</a></td>
+                                <td class="calendar__td"><a href="#" class="calendar__link">17</a></td>
+                                <td class="calendar__td"><a href="#" class="calendar__link">18</a></td>
+                                <td class="calendar__td"><a href="#" class="calendar__link">19</a></td>
+                                <td class="calendar__td"><a href="#20marzo"
+                                        class="calendar__link caledar__td--serie">20</a></td>
+                            </tr>
+                            <tr class="calendar__tr">
+                                <td class="calendar__td"><a href="#21marzo"
+                                        class="calendar__link caledar__td--serie">21</a></td>
+                                <td class="calendar__td"><a href="#22marzo"
+                                        class="calendar__link caledar__td--serie">22</a></td>
+                                <td class="calendar__td"><a href="#23marzo"
+                                        class="calendar__link caledar__td--serie">23</a></td>
+                                <td class="calendar__td"><a href="#" class="calendar__link">24</a></td>
+                                <td class="calendar__td"><a href="#25marzo"
+                                        class="calendar__link caledar__td--serie">25</a></td>
+                                <td class="calendar__td"><a href="#" class="calendar__link">26</a></td>
+                                <td class="calendar__td"><a href="#27marzo"
+                                        class="calendar__link caledar__td--serie">27</a></td>
+                            </tr>
+                            <tr class="calendar__tr">
+                                <td class="calendar__td"><a href="#28marzo"
+                                        class="calendar__link caledar__td--serie">28</a></td>
+                                <td class="calendar__td"><a href="#29marzo"
+                                        class="calendar__link caledar__td--serie">29</a></td>
+                                <td class="calendar__td"><a href="#30marzo"
+                                        class="calendar__link caledar__td--serie">30</a></td>
+                                <td class="calendar__td"><a href="#" class="calendar__link">31</a></td>
+                                <td class="calendar__td"><a href="#01abril"
+                                        class="calendar__link calendar__link--otherdays caledar__td--serie">01</a>
+                                </td>
+                                <td class="calendar__td"><a href="#"
+                                        class="calendar__link calendar__link--otherdays">02</a>
+                                </td>
+                                <td class="calendar__td"><a href="#03abril"
+                                        class="calendar__link calendar__link--otherdays caledar__td--serie">03</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </aside>
+            </div>
+            <!--********** Fin del main left **********-->
+            <!--********** Comienzo del main right **********-->
+            <div class="main__right">
+                <article class="extrenos" id="04marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Viernes</p>
+                        <p class="extrenos__text extrenos__text--num">4</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/maisel2.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">The Marvelous Mrs. Maisel
+                            </h3>
+                            <p class="extreno__text">
+                                Temporada 04 - Episodio 05
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">06:00 en Amazon Prime Video</p>
+                        </div>
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/maisel2.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">The Marvelous Mrs. Maisel
+                            </h3>
+                            <p class="extreno__text">
+                                Temporada 04 - Episodio 06
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">06:00 en Amazon Prime Video</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="06marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Domingo</p>
+                        <p class="extrenos__text extrenos__text--num">6</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/peaky2.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Peaky Blinders</h3>
+                            <p class="extreno__text">
+                                Temporada 06 - Episodio 02
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">22:00 en Netflix</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="07marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Lunes</p>
+                        <p class="extrenos__text extrenos__text--num">7</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/twd.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">The Walking Dead</h3>
+                            <p class="extreno__text">
+                                Temporada 11 - Episodio 11
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">03:00 en HBO</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="08marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Martes</p>
+                        <p class="extrenos__text extrenos__text--num">8</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/better.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Better Things</h3>
+                            <p class="extreno__text">
+                                Temporada 05 - Episodio 03
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">04:00 en HBO</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="09marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Miércoles</p>
+                        <p class="extrenos__text extrenos__text--num">9</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/thiis.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">This is Us</h3>
+                            <p class="extreno__text">
+                                Temporada 06 - Episodio 07
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">03:00 en HBO</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="11marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Viernes</p>
+                        <p class="extrenos__text extrenos__text--num">11</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/upload2.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Upload</h3>
+                            <p class="extreno__text">
+                                Temporada 02 - Episodio 01
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">06:00 en Amazon Prime Video</p>
+                        </div>
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/upload2.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Upload</h3>
+                            <p class="extreno__text">
+                                Temporada 02 - Episodio 02
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">06:00 en Amazon Prime Video</p>
+                        </div>
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/upload2.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Upload</h3>
+                            <p class="extreno__text">
+                                Temporada 02 - Episodio 03
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">06:00 en Amazon Prime Video</p>
+                        </div>
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/upload2.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Upload</h3>
+                            <p class="extreno__text">
+                                Temporada 02 - Episodio 04
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">06:00 en Amazon Prime Video</p>
+                        </div>
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/upload2.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Upload</h3>
+                            <p class="extreno__text">
+                                Temporada 02 - Episodio 05
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">06:00 en Amazon Prime Video</p>
+                        </div>
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/upload2.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Upload</h3>
+                            <p class="extreno__text">
+                                Temporada 02 - Episodio 06
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">06:00 en Amazon Prime Video</p>
+                        </div>
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/maisel2.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">The Marvelous Mrs. Maisel
+                            </h3>
+                            <p class="extreno__text">
+                                Temporada 04 - Episodio 07
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">06:00 en Amazon Prime Video</p>
+                        </div>
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/maisel2.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">The Marvelous Mrs. Maisel
+                            </h3>
+                            <p class="extreno__text">
+                                Temporada 04 - Episodio 08
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">06:00 en Amazon Prime Video</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="13marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Domingo</p>
+                        <p class="extrenos__text extrenos__text--num">13</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/peaky2.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Peaky Blinders</h3>
+                            <p class="extreno__text">
+                                Temporada 06 - Episodio 03
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">22:00 en Netflix</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="14marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Lunes</p>
+                        <p class="extrenos__text extrenos__text--num">14</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/twd.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">The Walking Dead</h3>
+                            <p class="extreno__text">
+                                Temporada 11 - Episodio 12
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">02:00 en HBO</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="15marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Martes</p>
+                        <p class="extrenos__text extrenos__text--num">15</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/better.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Better Things</h3>
+                            <p class="extreno__text">
+                                Temporada 05 - Episodio 04
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">03:00 en HBO</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="16marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Miércoles</p>
+                        <p class="extrenos__text extrenos__text--num">16</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/thiis.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">This is Us</h3>
+                            <p class="extreno__text">
+                                Temporada 06 - Episodio 08
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">02:00 en HBO</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="20marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Domingo</p>
+                        <p class="extrenos__text extrenos__text--num">20</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/peaky2.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Peaky Blinders</h3>
+                            <p class="extreno__text">
+                                Temporada 06 - Episodio 04
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">22:00 en Netflix</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="21marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Lunes</p>
+                        <p class="extrenos__text extrenos__text--num">21</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/twd.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">The Walking Dead</h3>
+                            <p class="extreno__text">
+                                Temporada 11 - Episodio 13
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">02:00 en HBO</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="22marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Martes</p>
+                        <p class="extrenos__text extrenos__text--num">22</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/better.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Better Things</h3>
+                            <p class="extreno__text">
+                                Temporada 05 - Episodio 05
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">03:00 en HBO</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="23marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Miércoles</p>
+                        <p class="extrenos__text extrenos__text--num">23</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/thiis.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">This is Us</h3>
+                            <p class="extreno__text">
+                                Temporada 06 - Episodio 09
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">02:00 en HBO</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="25marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Viernes</p>
+                        <p class="extrenos__text extrenos__text--num">25</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/atlanta.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Atlanta</h3>
+                            <p class="extreno__text">
+                                Temporada 03 - Episodio 01
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">03:00 en Netflix</p>
+                        </div>
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/atlanta.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Atlanta</h3>
+                            <p class="extreno__text">
+                                Temporada 03 - Episodio 02
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">03:00 en Netflix</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="27marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Domingo</p>
+                        <p class="extrenos__text extrenos__text--num">27</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/peaky2.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Peaky Blinders</h3>
+                            <p class="extreno__text">
+                                Temporada 06 - Episodio 05
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">22:00 en Netflix</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="28marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Lunes</p>
+                        <p class="extrenos__text extrenos__text--num">28</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/twd.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">The Walking Dead</h3>
+                            <p class="extreno__text">
+                                Temporada 11 - Episodio 14
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">02:00 en HBO</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="29marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Martes</p>
+                        <p class="extrenos__text extrenos__text--num">29</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/better.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Better Things</h3>
+                            <p class="extreno__text">
+                                Temporada 05 - Episodio 06
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">03:00 en HBO</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="30marzo">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Miércoles</p>
+                        <p class="extrenos__text extrenos__text--num">30</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">marzo</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/thiis.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">This is Us</h3>
+                            <p class="extreno__text">
+                                Temporada 06 - Episodio 10
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">02:00 en HBO</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos" id="01abril">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Viernes</p>
+                        <p class="extrenos__text extrenos__text--num">1</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">abril</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/atlanta.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Atlanta</h3>
+                            <p class="extreno__text">
+                                Temporada 03 - Episodio 03
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">03:00 en Netflix</p>
+                        </div>
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/atlanta.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Atlanta</h3>
+                            <p class="extreno__text">
+                                Temporada 03 - Episodio 04
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">03:00 en Netflix</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="extrenos extrenos--last" id="03abril">
+                    <div class="extrenos__header">
+                        <p class="extrenos__text extrenos__text--dia">Domingo</p>
+                        <p class="extrenos__text extrenos__text--num">03</p>
+                        <p class="extrenos__text extrenos__text--small">de</p>
+                        <p class="extrenos__text extrenos__text--mes">abril</p>
+                    </div>
+                    <div class="extrenos__main">
+                        <div class="extreno">
+                            <div class="extreno__img">
+                                <img src="../assets/images/calendario/peaky2.jpg" alt="" class="img">
+                            </div>
+                            <h3 class="extreno__title">Peaky Blinders</h3>
+                            <p class="extreno__text">
+                                Temporada 06 - Episodio 06
+                            </p>
+                            <p class="extreno__text extreno__text--plataforma">22:00 en Netflix</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!--********** Fin del main right **********-->
+        </main>
+        <!--********** Fin del main **********-->
+        <!--********** Comienzo del footer **********-->
+        <footer class="footer">
+            <div class="footer__cont">
+                <h3 class="footer__title">Redes Sociales</h3>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="http://instagram.com" class="footer__link" target="_blank"><img
+                                src="../assets/images/logos/instagram.png" alt=""
+                                class="footer__icon"><span>Instagram</span></a></li>
+                    <li class="footer__item"><a href="https://twitter.com" class="footer__link" target="_blank"><img
+                                src="../assets/images/logos/twitter.png" alt=""
+                                class="footer__icon"><span>Twitter</span></a></li>
+                    <li class="footer__item"><a href="https://facebook.com" class="footer__link" target="_blank"><img
+                                src="../assets/images/logos/facebook.png" alt=""
+                                class="footer__icon"><span>Facebook</span></a></li>
+                    <li class="footer__item"><a href="https://youtube.com" class="footer__link" target="_blank"><img
+                                src="../assets/images/logos/youtube.png" alt=""
+                                class="footer__icon"><span>YouTube</span></a></li>
+                </ul>
+            </div>
+            <div class="footer__cont">
+                <h3 class="footer__title">Contactanos</h3>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="mailto:fueradeseries@gmail.com" class="footer__link"><img
+                                src="../assets/images/icons/email.png" alt=""
+                                class="footer__icon"><span>fueradeseries@gmail.com</span></a></li>
+                    <li class="footer__item"><img src="../assets/images/icons/whatsapp.png" alt=""
+                            class="footer__icon"><span>601 324 653</span></li>
+                    <li class="footer__item"><img src="../assets/images/icons/tel.png" alt=""
+                            class="footer__icon"><span>925
+                            81 13 10</span></li>
+                </ul>
+            </div>
+            <div class="footer__cont">
+                <h3 class="footer__title">Dónde estamos</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12233.454777683526!2d-4.8370206!3d39.9556206!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe80e353d605fae33!2sI.E.S.%20Ribera%20del%20Tajo!5e0!3m2!1ses!2ses!4v1646007595119!5m2!1ses!2ses"
+                    width="250" height="180" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="footer__cont">
+                <h3 class="footer__title">Descarga nuestra App</h3>
+                <div class="footer__img"><a href="#"><img src="../assets/images/logos/app.png" alt=" " class="img"></a>
+                </div>
+            </div>
+        </footer>
+        <!--********** Fin del footer **********-->
+    </div>
+
+</body>
+
+</html>

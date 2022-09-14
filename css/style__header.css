@@ -1,0 +1,20 @@
+/* CSS DEL HEADER*/
+
+.header {
+  background-color: rgb(27, 27, 27);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+}
+.header__title {
+  margin: 0 auto;
+  width: 120px;
+}
+/* Líneas decorativas lateralesÑ */
+.header__linea{
+    border-bottom: 1px solid whitesmoke;
+    width: 35%;
+    height: 0;
+    align-self: center;
+}

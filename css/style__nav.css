@@ -1,0 +1,68 @@
+/* CSS DEL NAV*/
+/* Formato general del nav */
+  .nav {
+    background-color: rgb(71, 71, 71);
+    height: 45px;
+    display: flex;
+    margin: 0;
+    font-variant: small-caps;
+    position: sticky;
+    top: 0px;
+    padding: 0 15px;
+    z-index: 50;
+  }
+  .nav__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .nav__item {
+    text-align: center;
+    font-size: 1.2rem;
+    position: relative;
+    top: -15px;
+    flex-grow: 1;
+  }
+  .nav__link {
+    display: block;
+    font-weight: bold;
+    padding: 11px;
+    color: whitesmoke;
+    font-family: Fenix;
+  }
+  .nav__link:hover {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: rgb(25, 25, 25);
+  }
+/* Formato del nav desplegable */
+  .nav__list--oculto {
+    display: none;
+    list-style-type: none;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .nav__item:hover .nav__list--oculto {
+    display: block;
+    border-top: 2px solid rgb(54, 54, 54);
+  }
+  .nav__item--oculto {
+    display: flex;
+  }
+  .nav__link--oculto {
+    font-size: 1rem;
+    padding: 3px 10px;
+    width: 100%;
+    color: whitesmoke;
+    font-family: Fenix;
+  }
+  .nav__link--oculto:hover {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding-left: 20px;
+    color: rgb(25, 25, 25);
+    font-weight: bold;
+  }

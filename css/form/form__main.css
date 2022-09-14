@@ -1,0 +1,101 @@
+/* CSS PARA EL FORM DEL REGISTRO */
+/* Formato y tamaño del contenedor del form */
+    .main{
+        background-image: url(../../assets/images/registro/registro6.jpg);
+        background-size: cover;
+        background-position: 50% 40%;
+        margin: 0 auto;
+        padding: 40px;
+    }
+    .form{
+        width: 990px;
+        min-width: 990px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 15px;
+        align-content: center;
+        backdrop-filter: blur(3px);
+        background-color: rgba(0, 0, 0, 0.449);
+        color: whitesmoke;
+        box-shadow: 0 0 10px black;
+        border-radius: 5px;
+        padding: 0 0 40px;
+    }
+    .form__title{
+        font-size: 4rem;
+        font-family: Dancing;
+        margin: 15px;
+    }
+/* Maquetación del Form */
+    .form__row{
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        padding: 5px;
+        align-items: center;
+    }
+    .form__label{
+        width: 230px;
+        text-align: right;
+        padding-right: 10px;
+        font-weight: bold;
+        font-variant: small-caps;
+    }
+/* Formato de los inputs */
+    .form__input{
+        outline: none;
+        flex-grow: 1;
+        background-color: rgba(226, 214, 214, 0.421);
+        border: none;
+        padding: 8px 10px;
+        border-bottom: 3px solid rgba(245, 245, 245, 0);
+        
+    }
+    .form__input:focus{
+        border-bottom: 3px solid #b88820f3;
+        box-shadow: 0 0 15px gray;
+    }
+    .form__input::placeholder{
+        color: rgb(76, 76, 76);
+    }
+    .form__genero{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+/* Botón de enviar: */
+    .form__submit{
+        padding: 25px 15px;
+        width: 250px;
+        border-radius: 5px;
+        margin: 0 auto;
+        font-size: 2.4rem;
+        font-family: Monea;
+        font-variant: small-caps;
+        font-weight: bolder;
+        background-color: rgba(128, 128, 128, 0);
+        color: whitesmoke;
+        box-shadow: none;
+        border: 3px solid whitesmoke;
+    }
+    .form__submit:hover{
+        box-shadow: 0 0 10px whitesmoke;
+        color: rgb(96, 96, 96);    
+        background-color: rgba(245, 245, 245, 0.802);
+        border: 3px solid rgb(68, 68, 68);
+    }
+/* Modificadores */
+    .form__label--small{
+        width: auto;
+        margin-left: 20px;
+    }
+    .form__label--orange{
+        color: #b88820f3;
+    }
+    .form__block--checkbox{
+        text-align: left;
+        width: 500px;
+        margin: 10px auto;
+    }

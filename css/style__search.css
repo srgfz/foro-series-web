@@ -1,0 +1,30 @@
+/* CSS DEL INPUT SEARCH*/
+/* Formato del input search */
+  .aside__search{
+    padding: 5px 10px;
+    margin: 20px auto;
+    width: 220px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    text-align: left;
+  }
+  .input__search{
+    margin: 0 10px;
+    width: 170px;
+    border: none;
+    border-bottom: 2px solid rgba(184, 131, 17, 0);
+    background-color: rgba(245, 245, 245, 0);
+  }
+/* Focus del input search */
+  .input__search:focus{
+    border: none;
+    outline: 0;
+    border-bottom: 2px solid rgb(184, 131, 17);
+  }
+/* Modificadores para cambiar el tamaño */
+  .aside__search--calendar{
+    width: 300px;
+  }
+  .input__search--calendar{
+    width: 260px;
+  }

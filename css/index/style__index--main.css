@@ -1,0 +1,45 @@
+/* CSS DEL MAIN DEL INDEX*/
+
+/* Formato de los section */
+    .section{
+        width: 70%;
+        padding: 20px 0;
+        text-align: left;
+        box-shadow: 0 0 10px gray;
+        padding: 0 50px;
+        background-color: whitesmoke;
+        margin: 40px 0;
+    }
+    .section__title{
+        border-bottom: 2px solid #2f3234;
+        font-family: Monea;
+        font-size: 2.6rem;
+        font-variant: small-caps;
+        margin: 10px;
+        padding: 30px 0 5px;
+    }
+    .section__main{
+        padding: 5px 25px;
+        font-family: Roboto;
+        height: 150px;
+        width: 70%;
+        font-family: Fenix;
+        font-size: 1.15rem;
+    }
+/* Modificadores para los section right */
+    .section__title--right{
+    margin: 0 0 0 auto;
+    text-align: right;
+    margin: 40px 0 40px auto;
+    padding: 0 50px;
+}
+    .stection__main--right{
+    margin: 0 0 0 auto;
+}
+    .section__text--large{
+    font-family: Dancing;
+    font-size: 2.2rem;
+    margin: 10px;
+    color: #b07b08;
+}
+

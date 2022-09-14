@@ -1,0 +1,57 @@
+/* CSS PARA EL ASIDE DE FORO*/
+/* Formato y tamaño del aside */
+  .main__left{
+    background-color: whitesmoke;
+    width: 330px;
+  }
+  .aside{
+    position: sticky;
+    top: 45px;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 670px;
+    background-color: whitesmoke;
+  }
+/* Formato de los elementos de la lista del aside */
+  .aside__title{
+    border-bottom: 2px solid #2f3234c7;
+    width: 80%;
+    margin: 30px auto 10px;
+    text-align: left;
+    padding: 5px 10px;
+  }
+  .aside__select{
+    width: 150px;
+    padding: 5px 3px;
+    outline: none;
+    border-radius: 5px;
+  }
+  .aside__list{
+    list-style-type: none;
+    padding-left: 40px;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+  .aside__item{
+    margin: 5px;
+  }
+  .aside__link{
+    margin-left: 5px;
+    color: #2f3234;
+  }
+  .aside__icon{
+    color: #959ca0;
+    font-size: 0.9rem;
+  }
+  .aside__icon--actual{
+    color: #2f3234;
+  }
+  .aside__item:hover .aside__icon{
+    color: #2f3234;
+  }
+  .aside__item:hover{
+    text-decoration: underline;
+  }
+  .item__list{
+    display: none;
+  }
